@@ -1,0 +1,14 @@
+framework module iNaviNaviMaps {
+  umbrella header "iNaviNaviMaps.h"
+
+  export *
+
+  explicit module Private {
+      //header "INaviMapView.h"
+  }
+}
+
+module iNaviNaviMaps.Swift {
+    header "iNaviNaviMaps-Swift.h"
+    requires objc
+}
